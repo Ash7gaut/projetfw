@@ -82,7 +82,7 @@ text-align: center;
 nav li a{
 margin: 0px 14px;
 text-decoration: none;
-color: lightgrey;
+color: rgb(186, 186, 186);
 font-size: 18px;
 margin-right: 18px;
  
@@ -90,11 +90,15 @@ margin-right: 18px;
  
 nav a:hover{
 /**border-bottom: 5px solid red;**/
-    color:grey
+    color:rgb(220, 220, 220)
  
 }
 
 .active {
+    color: white;
+}
+
+nav a .active:hover {
     color: white;
 }
 
@@ -111,3 +115,49 @@ nav a:hover{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.396);
 }
+
+.text-white {
+    font-family: "Futura";
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    display: block;
+    max-width: 1023px;
+    margin: auto;
+    padding-top: 172px;
+    padding-bottom: 10px;
+    /* border: 1px solid red; */
+
+}
+
+
+.p-white {
+    margin: auto;
+    display: block;
+    max-width: 1023px;
+    /* border: 1px solid red; */
+    color: white;
+}
+
+.overlay-front {
+    position: relative;
+    z-index: 1;
+}
+
+.bouton-essayer {
+    background-color: #eb8994;
+    color: #fff;
+    display: flex;
+    border-radius: 5px;
+     /* width: 175px; */
+    height: 45px; 
+    margin: auto;
+    max-width: 175px;
+    max-height: 45px;
+    margin-top: 17px;
+    margin-left: 223px;
+    align-items: center;
+    justify-content: center;
+
+}
+
