@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #1E1E1E;
+    background-color: #000;
     font-family: "Nunito" ,sans-serif;
     overflow-x: hidden;
     box-sizing: border-box;
@@ -55,7 +55,7 @@ body {
 #logo img{ 
     width: 2.8vw; 
     margin-top: 33px;
-    margin-left: 185px;
+    margin-left: 186px;
 }
  
 /* Menu de navigation*/
@@ -65,7 +65,7 @@ nav ul{
 list-style-type:  none;
 padding: 10px;
 margin-top: 17px;
-margin-left: 47px;
+margin-left: 49px;
 display: flex;
  
 }
@@ -116,7 +116,7 @@ nav a .active:hover {
     background-color: rgba(0, 0, 0, 0.396);
 }
 
-.text-white {
+#text-white {
     font-family: "Futura";
     font-size: 40px;
     line-height: 48px;
@@ -161,3 +161,45 @@ nav a .active:hover {
 
 }
 
+.actu {
+    color: white;
+    text-align: center;
+    font-family: "Futura";
+    font-size: 32px;
+}
+
+.container {
+    column-count: 2;
+    /* border: 1px solid red; */
+    margin: auto;
+    max-width: 1073px;
+}
+
+.rose {
+    width: 100%;
+}
+
+.white {
+    display: flex;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+h6 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+.random {
+    top: 0;
+    margin: 0;
+    background-image: url(/images/black_pink_split_background.png);
+    background-size: 102% 102%;
+
+}
