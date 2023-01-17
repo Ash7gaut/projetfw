@@ -174,6 +174,11 @@ nav a .active:hover {
 
 }
 
+.bouton-essayer:hover {
+    color: black;
+}
+
+
 .actu {
     color: white;
     text-align: center;
@@ -529,7 +534,8 @@ h6 {
     background-image: url(images/trust_background.png);
     background-size: 102% 102%;
     background-repeat: no-repeat;
-    height: 500px;
+    text-align: center;
+    height: 800px;
 }
 
 .logoentr {
@@ -539,3 +545,51 @@ h6 {
     margin: auto;
     margin-top: 120px;
 }
+
+.row-comm {
+    margin: auto;
+    max-width: 1075px;
+    display: flex;
+    flex-wrap: wrap;
+     /* border: 1px solid red;  */
+     height: 200px;
+     margin-top: 120px;
+     justify-content: space-between;
+
+}
+
+.reviewtitle {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.comm1 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 24px;
+    width: 280px;
+    font-size: 14px;
+    /* display: flex;
+    align-items: stretch;  */
+}
+
+.comm2 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 24px;
+    width: 280px;
+    font-size: 14px;
+    /* display: flex;
+    align-items: stretch;  */
+}
+
+.comm3 {
+    border-radius: 5px;
+    background-color: white;
+    padding: 24px;
+    width: 280px;
+    font-size: 14px;
+    /* display: flex;
+    align-items: stretch;  */
+}
+
