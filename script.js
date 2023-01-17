@@ -9,3 +9,14 @@ gsap.to(".bgblue", {
     }
 
 })
+
+gsap.from("#star1", {
+    x:-50,
+    y:-50,
+    scrollTrigger: {
+        trigger: ".comm",
+        markers: true,
+        start: "top bottom",
+        end: "bottom 80%",
+    }
+})
