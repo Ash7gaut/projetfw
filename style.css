@@ -490,3 +490,52 @@ h6 {
     height: 460px;
     z-index: -1;
 }
+
+.vibzmobile {
+    color: #000;
+    text-align: center;
+    font-family: "Futura";
+    font-weight: 500;
+    font-size: 32px;
+    margin-top: 130px;
+}
+
+#tablette {
+    display: flex;
+    margin: auto;
+    width: 41vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    margin: auto;
+    max-width: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    margin-bottom: 150px;
+}
+
+.row img {
+    width: 14vw;
+}
+
+#ecart {
+    margin-right: 63px;
+}
+
+.main2 {
+    background-image: url(images/trust_background.png);
+    background-size: 102% 102%;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.logoentr {
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 120px;
+}

@@ -3,7 +3,7 @@ gsap.to(".bgblue", {
     transition:3.5,
     scrollTrigger: {
         trigger: ".choisis",
-        markers: true,
+        // markers: true,
         start: "top 75%",
         end: "bottom 90%",
     }
