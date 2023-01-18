@@ -21,6 +21,12 @@
     }
 }
 
+@media only screen and (max-width: 424px) {
+    .news {
+        font-size: 40px;
+    }
+}
+
 
 @media only screen and (max-width: 424px) {
     nav ul {
@@ -51,24 +57,34 @@
         max-width: 350px;
         margin-top: 30px;
         margin-bottom: 30px;
+        text-align: center;
 
     }
 }
 
 @media only screen and (max-width: 424px) {
-    #text-white {
-        font-size: 24px;
+    .p-white {
         margin: auto;
         max-width: 350px;
         margin-top: 30px;
         margin-bottom: 30px;
+        text-align: center;
 
     }
 }
 
 @media only screen and (max-width: 424px) {
+    .btn-try {
+        margin: auto;
+        max-width: 150px;
+
+    }
+}
+
+
+@media only screen and (max-width: 424px) {
     .godance {
-       height: 800px;
+       height: 1000px;
        align-items:initial;
        max-width: 180px;
 
