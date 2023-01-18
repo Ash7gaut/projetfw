@@ -1,3 +1,6 @@
+/* Home / Header */
+
+
 body {
     margin: 0;
     padding: 0;
@@ -7,28 +10,6 @@ body {
     box-sizing: border-box;
 }
 
-/* .header {
-    position: sticky;
-    text-align: center;
-}  */
-
-/* a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    margin-right: 30px;
-    margin-top: 30px;
-    
-} */
-
-
-
-/* #logo {
-    width: 3vw;
-    display: flex;
-    position: absolute;
-    top: 20px;
-} */
 
 #video {
     position: absolute;
@@ -44,6 +25,33 @@ body {
     margin-top: 2000px;
 }
 
+#parent {
+    position: relative;
+    height: 35vw;
+    width: 100vw;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.396);
+    box-shadow: inset 0 0 4em rgba(0, 0, 0, 0.463);
+}
+
+.gradient{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(#00000000, #000000);
+}
+
+
+
 #header {
     position: relative;
     z-index: 10;
@@ -57,8 +65,7 @@ body {
     margin-left: 186px;
 }
  
-/* Menu de navigation*/
- 
+
 nav ul{
  
 list-style-type:  none;
@@ -103,30 +110,7 @@ nav a .active:hover {
     transition: 2;
 }
 
-#parent {
-    position: relative;
-    height: 35vw;
-    width: 100vw;
-}
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.396);
-    box-shadow: inset 0 0 4em rgba(0, 0, 0, 0.463);
-}
-
-.gradient{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50%;
-    background: linear-gradient(#00000000, #000000);
-}
 
 #text-white {
     font-family: "Futura";
@@ -163,19 +147,31 @@ nav a .active:hover {
     border-radius: 5px;
      /* width: 175px; */
     height: 45px; 
-    margin: auto;
     max-width: 175px;
     max-height: 45px;
     margin-top: 17px;
-    margin-left: 223px;
     align-items: center;
     justify-content: center;
 
 }
 
+.arriv {
+    max-width: 1020px;
+    margin: auto;
+    justify-content: left;
+}
+
 .bouton-essayer:hover {
     color: black;
 }
+
+
+
+
+ /* Partie Actualité  */
+
+
+
 
 
 .actu {
@@ -210,6 +206,7 @@ nav a .active:hover {
 
 .rose {
     border-radius: 5px;
+    visibility: hidden;
 }
 
 .white {
@@ -221,7 +218,9 @@ nav a .active:hover {
     margin: 0;
 }
 
+
 h6 {
+    /* Jerky Jessy */
     text-align: center;
     justify-content: center;
     color: white;
@@ -230,20 +229,32 @@ h6 {
 }
 
 
+
 .main1 {
     padding: 5px;
-    background-image: url(/images/black_pink_split_background.png);
+    background-image: url(images/black_pink_split_background.png);
     background-size: 102% 102%;
 
 }
 
 #img-white {
-    background-image: url(/images/white_pink_split_background.png);
+    background-image: url(images/white_pink_split_background.png);
     top: 0;
     margin: 0;
     background-size: 101% 101%;
 }
 
+.godance {
+    display: flex;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    visibility: hidden;
+
+}
+    
 .btn-cours {
     background-color: #ffffff;
     color: #000;
@@ -251,19 +262,33 @@ h6 {
     border-radius: 5px;
      /* width: 175px; */
     height: 45px; 
-    margin: auto;
     max-width: 175px;
     max-height: 45px;
     margin-top: 20px;
-    margin-left: 175px;
     align-items: center;
     justify-content: center;
+    padding-left: 42px;
+    padding-right: 42px;
 }
 
 .btn-cours:hover {
     color: #eb8994;
 }
 
+
+
+
+/* Partie Encadré par les meilleurs */
+
+
+
+
+
+.encadre {
+    font-size: 32px;
+    font-family: "Futura";
+    font-weight: 500;
+}
 
 .grille {
     display: grid;
@@ -354,12 +379,20 @@ h6 {
 }
 
 .encadr {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
+    padding-top: 1px;
     margin: 0;
     text-align: center;
     background-color: #EDB1B6;
-    font-size: 32px;
+
 }
+
+
+
+
+/* Partie Choisis ton plan */
+
+
 
 
 .choisis {
@@ -371,9 +404,17 @@ h6 {
 }
 
 .sstr {
+    /* sstr= sous titre */
     text-align: center;
     padding-top: 0;
     margin-bottom: 80px;
+}
+
+.sstr1 {
+    text-align: center;
+    padding-top: 0;
+    margin-bottom: 80px;
+    visibility: hidden;
 
 }
 
@@ -383,18 +424,8 @@ h6 {
     margin: auto;
 }
 
-/* .pannuel {
-    width: 280px;
-    height: 60px;
-    background-color: #EB8994;
-    font-family: "Futura";
-    font-weight: 500;
-    font-size: 23px;
-    border-radius: 5px;
-} */
-
 .containeroffre #mensuel {
-    background-color: #eaeaea;
+    background-color: #fff;
     border-radius: 5px;
     width: 363px;
     margin-top: 82px;
@@ -495,6 +526,14 @@ h6 {
     z-index: -1;
 }
 
+
+
+
+/* Partie Vibz aussi sur mobile */
+
+
+
+
 .vibzmobile {
     color: #000;
     text-align: center;
@@ -502,6 +541,7 @@ h6 {
     font-weight: 500;
     font-size: 32px;
     margin-top: 130px;
+    visibility: hidden;
 }
 
 #tablette {
@@ -543,6 +583,7 @@ h6 {
     justify-content: center;
     margin: auto;
     margin-top: 120px;
+    visibility: hidden;
 }
 
 .row-comm {
@@ -550,7 +591,6 @@ h6 {
     max-width: 1075px;
     display: flex;
     flex-wrap: wrap;
-     /* border: 1px solid red;  */
      height: 200px;
      margin-top: 120px;
      justify-content: space-between;
@@ -592,6 +632,12 @@ h6 {
     align-items: stretch;  */
 }
 
+
+
+/* Partie Footer */
+
+
+
 footer {
     display: flex;
     justify-content: space-evenly;
@@ -628,3 +674,5 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
