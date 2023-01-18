@@ -2,7 +2,7 @@
 // Partie Home
 
 
-gsap.fromTo(".actu", {
+gsap.fromTo(".news", {
     opacity:0,
     y: 100,
 }, {
@@ -10,7 +10,7 @@ gsap.fromTo(".actu", {
     duration:1.5, 
     opacity:1,
     scrollTrigger: {
-        trigger: ".actu",
+        trigger: ".news",
         start: "top 80%",
         end: "bottom 80%",
 
@@ -210,7 +210,7 @@ gsap.fromTo(".photo-9", {
 // Partie Choisis ton plan
 
 
-gsap.fromTo(".choisis", {
+gsap.fromTo(".choosetitle", {
     opacity:0,
     x:-50,
     y:-50,
@@ -231,7 +231,7 @@ gsap.to(".bgblue", {
     scale:1.14,
     transition:4.5,
     scrollTrigger: {
-        trigger: ".choisis",
+        trigger: ".choosetitle",
         // markers: true,
         start: "top 75%",
         end: "bottom 90%",
@@ -285,7 +285,7 @@ gsap.fromTo(".googlep", {
 
 
 
-gsap.to(".sstr1", {
+gsap.to(".undertitle1", {
     autoAlpha: 1,
     duration:4,
     scrollTrigger: {
@@ -295,7 +295,7 @@ gsap.to(".sstr1", {
 })
 
 
-gsap.fromTo(".sstr", {
+gsap.fromTo(".undertitle", {
     opacity:0,
     x:50,
     y:50,

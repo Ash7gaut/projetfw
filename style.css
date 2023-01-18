@@ -16,7 +16,7 @@ body {
     width: 100vw;
     height: 100%;
     top: 0;
-    left: 0;
+    left: 0; 
     object-fit: cover;
     user-select: none;
 }
@@ -140,7 +140,7 @@ nav a .active:hover {
     z-index: 1;
 }
 
-.bouton-essayer {
+.btn-try {
     background-color: #eb8994;
     color: #fff;
     display: flex;
@@ -161,7 +161,7 @@ nav a .active:hover {
     justify-content: left;
 }
 
-.bouton-essayer:hover {
+.bouton-try:hover {
     color: black;
 }
 
@@ -174,7 +174,7 @@ nav a .active:hover {
 
 
 
-.actu {
+.news {
     color: white;
     text-align: center;
     font-family: "Futura";
@@ -191,7 +191,7 @@ nav a .active:hover {
     max-width: 1073px;
 }
 
-.containeroffre {
+.containeroffer {
     display: flex;
     align-items: stretch; 
     /* border: 1px solid red;  */
@@ -255,7 +255,7 @@ h6 {
 
 }
     
-.btn-cours {
+.btn-see {
     background-color: #ffffff;
     color: #000;
     display: flex;
@@ -271,7 +271,7 @@ h6 {
     padding-right: 42px;
 }
 
-.btn-cours:hover {
+.btn-see:hover {
     color: #eb8994;
 }
 
@@ -290,7 +290,7 @@ h6 {
     font-weight: 500;
 }
 
-.grille {
+.grid {
     display: grid;
     justify-content: center;
     align-items: flex-start;
@@ -395,7 +395,7 @@ h6 {
 
 
 
-.choisis {
+.choosetitle {
     color: #000;
     text-align: center;
     font-family: "Futura";
@@ -403,14 +403,14 @@ h6 {
     font-size: 32px;
 }
 
-.sstr {
+.undertitle {
     /* sstr= sous titre */
     text-align: center;
     padding-top: 0;
     margin-bottom: 80px;
 }
 
-.sstr1 {
+.undertitle1 {
     text-align: center;
     padding-top: 0;
     margin-bottom: 80px;
@@ -418,13 +418,13 @@ h6 {
 
 }
 
-.choisistonplan {
+.choose {
     /* border: 1px solid red; */
     max-width: 1000px;
     margin: auto;
 }
 
-.containeroffre #mensuel {
+.containeroffer #mensuel {
     background-color: #fff;
     border-radius: 5px;
     width: 363px;
@@ -434,7 +434,7 @@ h6 {
 
 
 
-.containeroffre #annuel {
+.containeroffer #annuel {
     background-color: #EDB1B6;
     border-radius: 5px;
     width: 440px;
@@ -452,7 +452,7 @@ h6 {
     text-align: left;
 }
 
-#meilleuroffre {
+#bestoffer {
    background-color: #EB8994; 
    color: black;
    padding: 1px;
@@ -465,14 +465,14 @@ h6 {
    
 }
 
-.prix {
+.price {
     font-size: 50px;
     font-family: "Futura";
     font-weight: 600;
     margin: 24px;
 }
 
-.paiement {
+.pay {
     font-size: 12px;
     font-family: "Futura";
     font-weight: 400;
@@ -483,7 +483,7 @@ h6 {
 
 }
 
-.commencerm {
+.startm {
     display: flex;
     font-size: 16px;
     background-color: #fff;
@@ -498,7 +498,7 @@ h6 {
     align-items: center;
 }
 
-.commencera {
+.starta {
     display: flex;
     font-size: 16px;
     background-color: #000;
@@ -544,7 +544,7 @@ h6 {
     visibility: hidden;
 }
 
-#tablette {
+#tablet {
     display: flex;
     margin: auto;
     width: 41vw;
@@ -565,7 +565,7 @@ h6 {
     width: 14vw;
 }
 
-#ecart {
+#marginright {
     margin-right: 63px;
 }
 
