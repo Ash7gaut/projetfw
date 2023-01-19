@@ -284,7 +284,7 @@ h6 {
 
 
 
-.encadre {
+.thebest {
     font-size: 32px;
     font-family: "Futura";
     font-weight: 500;
@@ -378,7 +378,7 @@ h6 {
     border-radius: 125px;
 }
 
-.encadr {
+.divthebest {
     padding-bottom: 40px;
     padding-top: 1px;
     margin: 0;
@@ -424,7 +424,7 @@ h6 {
     margin: auto;
 }
 
-.containeroffer #mensuel {
+.containeroffer #monthly {
     background-color: #fff;
     border-radius: 5px;
     width: 363px;
@@ -434,7 +434,7 @@ h6 {
 
 
 
-.containeroffer #annuel {
+.containeroffer #year {
     background-color: #EDB1B6;
     border-radius: 5px;
     width: 440px;
@@ -444,7 +444,7 @@ h6 {
 
 
 
-.gauche {
+.left {
     color: #000;
     font-family: "Futura";
     font-size: 20px;

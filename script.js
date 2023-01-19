@@ -51,7 +51,7 @@ gsap.to(".godance", {
 // Partie Encadré par les meilleurs
 
 
-gsap.fromTo(".encadre", {
+gsap.fromTo(".thebest", {
     opacity:0,
     y:-550,
 }, {
@@ -239,7 +239,7 @@ gsap.to(".bgblue", {
 
 })
 
-gsap.to("#mensuel", {
+gsap.to("#monthly", {
     backgroundColor: "#E1E1E1",
     transition:5,
 
